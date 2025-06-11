@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	nums := []int{3, 2, 4}
-	target := 6
-	result := solution.TwoSum(nums, target)
+	nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
+	target := 2
+	result := solution.RemoveElement(nums, target)
 	fmt.Println(result)
 }
